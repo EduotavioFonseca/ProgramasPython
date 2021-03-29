@@ -1,0 +1,16 @@
+# Programa principal
+import moeda
+p = float(input('Digite o preço: R$ '))
+print()
+print(f'A metade de R$ {p:.2f} é R$ {moeda.metade(p):.2f}')
+print()
+print(f'O dobro de R$ {p:.2f} é R$ {moeda.dobro(p):.2f}')
+print()
+q = float(input('Qual a taxa de aumento? '))
+print()
+print(f'Aumentando {q:.2f} %, temos: R$ {moeda.aumentar(p, q):.2f}')
+print()
+q = float(input('Qual a taxa de redução? '))
+print()
+print(f'Diminuindo {q:.2f} %, temos: R$ {moeda.diminuir(p, q):.2f}')
+print()
