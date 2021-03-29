@@ -1,0 +1,10 @@
+#Unidade, dezena, centena, milhar
+numero = str(input('Digite um número de 0 a 9999: ')).zfill(4)
+print()
+print('Unidades: {}'.format(numero[3]))
+print()
+print('Dezenas: {}'.format(numero[2]))
+print()
+print('Centenas: {}'.format(numero[1]))
+print()
+print('Milhares: {}'.format(numero[0]))
